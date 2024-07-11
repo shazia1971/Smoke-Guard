@@ -1,0 +1,13 @@
+train: ./dataset/train/images
+val: ./dataset/valid/images
+test: ./dataset/test/images
+
+nc: 1
+names: ['cigarette']
+
+roboflow:
+  workspace: zohaib-6vukd
+  project: cigarette-detection-vtfdz
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/zohaib-6vukd/cigarette-detection-vtfdz/dataset/2
